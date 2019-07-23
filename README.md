@@ -31,3 +31,6 @@
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show2.jpg)<br/><br/>
 数组的插入删除操作，为了保持内存数据的连续性，需要大量数据搬移，时间复杂度是O(n)，链表的插入和删除是O(1)<br/>
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show5.jpg)<br/><br/>
+#### 时间空间互换
+对于执行较慢的程序，通过消耗更多内存空间来进行优化（空间换时间）<br/><br/>
+对于消耗过多内存的程序，通过消耗更多时间降低内存消耗（时间换空间）<br/><br/>
