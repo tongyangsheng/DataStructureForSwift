@@ -25,3 +25,9 @@
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show4.png)<br/><br/>
 &emsp;&emsp;双向循环链表：<br/>
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show7.jpg)<br/><br/>
+#### 数组和链表的区别
+&emsp;&emsp;数组需要一块连续的内存空间来储存，对内存的要求比较高。<br/>
+&emsp;&emsp;链表不需要连续的内存空间可以通过指针将一组零散的内存块串联起来<br/><br/>
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show2.jpg)<br/><br/>
+&emsp;&emsp;数组的插入删除操作，为了保持内存数据的连续性，需要大量数据搬移，时间复杂度是O(n)，链表的插入和删除是O(1)<br/>
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show5.jpg)<br/><br/>
