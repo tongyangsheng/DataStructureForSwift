@@ -235,7 +235,7 @@ class LinkedList<T>
         node.previous = nil
     }
 }
-
+//------------------------------------栈-------------------------------------
 //栈的实现：栈的实现依赖于swift中的数组 数组的append()和popLast()极大的方便了栈的实现
 struct Stack<T>
 {
