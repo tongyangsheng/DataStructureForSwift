@@ -10,6 +10,7 @@
 		EFA3CF9522E6B9E500311FE9 /* ArrayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA3CF9422E6B9E500311FE9 /* ArrayVC.swift */; };
 		EFA3CF9B22E6BAA400311FE9 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA3CF9A22E6BAA400311FE9 /* LinkedList.swift */; };
 		EFA3CF9D22E6BB3000311FE9 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA3CF9C22E6BB3000311FE9 /* Stack.swift */; };
+		EFA3CFA022E7050000311FE9 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA3CF9F22E7050000311FE9 /* Queue.swift */; };
 		EFC72D8022E1BF5800A3EB93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC72D7F22E1BF5800A3EB93 /* AppDelegate.swift */; };
 		EFC72D8222E1BF5800A3EB93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC72D8122E1BF5800A3EB93 /* ViewController.swift */; };
 		EFC72D8522E1BF5800A3EB93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC72D8322E1BF5800A3EB93 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		EFA3CF9422E6B9E500311FE9 /* ArrayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayVC.swift; sourceTree = "<group>"; };
 		EFA3CF9A22E6BAA400311FE9 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		EFA3CF9C22E6BB3000311FE9 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		EFA3CF9F22E7050000311FE9 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		EFC72D7C22E1BF5800A3EB93 /* DataStructureForSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructureForSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC72D7F22E1BF5800A3EB93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC72D8122E1BF5800A3EB93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,14 @@
 			path = LinkedList;
 			sourceTree = "<group>";
 		};
+		EFA3CF9E22E7049B00311FE9 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				EFA3CF9F22E7050000311FE9 /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
 		EFC72D7322E1BF5800A3EB93 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +144,7 @@
 				EFA3CF8D22E6B87600311FE9 /* Array */,
 				EFA3CF9722E6BA2E00311FE9 /* LinkedList */,
 				EFA3CF9622E6B9FB00311FE9 /* Stack */,
+				EFA3CF9E22E7049B00311FE9 /* Queue */,
 				EFC72D8322E1BF5800A3EB93 /* Main.storyboard */,
 				EFC72D8922E1BF5E00A3EB93 /* Assets.xcassets */,
 				EFC72D8B22E1BF5E00A3EB93 /* LaunchScreen.storyboard */,
@@ -293,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA3CF9522E6B9E500311FE9 /* ArrayVC.swift in Sources */,
+				EFA3CFA022E7050000311FE9 /* Queue.swift in Sources */,
 				EFC72D8222E1BF5800A3EB93 /* ViewController.swift in Sources */,
 				EFA3CF9B22E6BAA400311FE9 /* LinkedList.swift in Sources */,
 				EFC72D8822E1BF5800A3EB93 /* DataStructureForSwift.xcdatamodeld in Sources */,
