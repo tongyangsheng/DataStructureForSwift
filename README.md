@@ -14,4 +14,14 @@
 
 ### 第二部分：链表
 
-包括链表的特点和代码实现单链表，双链表
+包括链表的特点和代码实现单链表，双链表<br/><br/>
+常见的缓存策略：先进先出策略FIFO(First In,First Out)，最少使用策略LFU（Least Frequently Used),最近最少使用策略LRU（Least Recently Used)<br/><br/>
+链表中包括：单链表、循环链表、双向链表还有双向循环链表<br/><br/>
+&emsp;&emsp;单链表：<br/>
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show3.jpg)<br/><br/>
+&emsp;&emsp;循环链表：<br/>
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show6.jpg)<br/><br/>
+&emsp;&emsp;双向链表：<br/>
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show4.jpg)<br/><br/>
+&emsp;&emsp;双向循环链表：<br/>
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show7.jpg)<br/><br/>
