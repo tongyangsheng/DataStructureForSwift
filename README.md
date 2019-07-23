@@ -10,20 +10,20 @@
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show1.jpg)<br/><br/>
 数组具有连续的内存空间和相同类型的数据，因为这两个限制，拥有了`随机访问`的特性<br/><br/>
 数组支持随机访问，根据下标随机访问的时间复杂度为O(1)<br/><br/>
-数组从0开始编号的原因，在数组的寻址公式中如果从0开始<br/><br/>`a[k]_address = base_address + k * type_size`<br/><br/>如果从1开始<br/><br/>&emsp;&emsp;`a[k]_address = base_address + (k-1)*type_size`<br/><br/>多了一次减法运算
+数组从0开始编号的原因，在数组的寻址公式中如果从0开始<br/><br/>`a[k]_address = base_address + k * type_size`<br/><br/>如果从1开始<br/><br/>`a[k]_address = base_address + (k-1)*type_size`<br/><br/>多了一次减法运算
 
 ### 第二部分：链表
 
 包括链表的特点和代码实现单链表，双链表<br/><br/>
 常见的缓存策略：先进先出策略FIFO(First In,First Out)，最少使用策略LFU（Least Frequently Used),最近最少使用策略LRU（Least Recently Used)<br/><br/>
 链表中包括：单链表、循环链表、双向链表还有双向循环链表<br/><br/>
-&emsp;&emsp;单链表：<br/>
+单链表：<br/><br/>
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show3.jpg)<br/><br/>
-&emsp;&emsp;循环链表：<br/>
+循环链表：<br/><br/>
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show6.jpg)<br/><br/>
-&emsp;&emsp;双向链表：<br/>
+双向链表：<br/><br/>
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show4.png)<br/><br/>
-&emsp;&emsp;双向循环链表：<br/>
+双向循环链表：<br/><br/>
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show7.jpg)<br/><br/>
 #### 数组和链表的区别
 数组需要一块连续的内存空间来储存，对内存的要求比较高<br/>
