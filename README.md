@@ -1,6 +1,7 @@
 # 目录
+
 * [DataStructureForSwift](#datastructureforswift)<br/>
-      &emsp; * [数据结构swift实现代码](#数据结构swift实现代码)<br/>
+      &emsp;* [数据结构swift实现代码](#数据结构swift实现代码)<br/>
          &emsp;* [第一部分：数组的实现](#第一部分数组的实现)<br/>
          &emsp;* [第二部分：链表](#第二部分链表)<br/>
             &emsp;&emsp;* [数组和链表的区别](#数组和链表的区别)<br/>
