@@ -90,6 +90,26 @@
 
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show10.jpg)<br/><br/>
 
+### 第四部分：队列
+队列满足先进先出的特性<br/><br/>
+
+队列和栈一样也是一种操作受限的线性表数据结构<br/><br/>
+
+入队操作时间复杂度大多数为O(1)<br/><br/>
+
+出队时会有数据的复制.在取出数值的过程中，我们移除的是队列最前端的数值，而不是最末端。这个过程基本上一直是O(n)运算因为它需要将剩余的数据在内存上进行保留和移动。<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show11.jpg)<br/><br/>
+
+#### 更有效的队列算法
+当我们需要从队列中取出元素的时候，我们不做数组元素的移动（慢），而是记住这个元素的位置，并且把它重写为xxx（快）。<br/><br/>
+
+因为在队列算法中，最前端的预留内存永远不会被用到，为了防止内存浪费，我们可以偶尔对数组重新进行大小调整，即删除前端预留内存<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show12.jpg)<br/><br/>
+
+
+
 
 
 
