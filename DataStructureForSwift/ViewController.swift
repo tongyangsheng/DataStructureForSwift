@@ -42,12 +42,34 @@ class ViewController: UIViewController {
         print("------------------------------------队列---------------------------------")
         var queue = Queue<Any>()
         print("初始队列长度：\(queue.count)")
-        queue.enqueue(element: 1)
-        queue.enqueue(element: 2)
-        queue.enqueue(element: 3)
+        queue.enqueue(1)
+        queue.enqueue(2)
+        queue.enqueue(3)
         print("入队1，2，3 队列长度：\(queue.count)")
         print("出队一次，出队元素为：\(queue.dequeue()!)")
         print("此时队首为：\(queue.front!)")
+        print("------------------------------------排序---------------------------------")
+        print("--------冒泡排序--------")
+        var num = [1,5,3,6,9]
+        print("排序前：\(num)")
+        BubbleSort(&num)
+        print("排序后：\(num)")
+        var num1 = [1,5,3,6,9]
+        BubbleSort2(&num1)
+        print("优化算法排序后：\(num1)")
+        print("--------插入排序--------")
+        var num2 = [1,5,3,6,9]
+        print("排序前：\(num2)")
+        InsertionSort(&num2)
+        print("排序后：\(num2)")
+        var num3 = [1,5,3,6,9]
+        InsertionSort1(&num3)
+        print("优化算法排序后：\(num3)")
+        print("--------选择排序--------")
+        var num4 = [1,5,3,6,9]
+        print("排序前：\(num4)")
+        SelectionSort(&num4)
+        print("排序后：\(num4)")
     }
 }
 
