@@ -132,7 +132,9 @@ n次冒泡的过程：<br/><br/>
 
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show14.jpg)<br/><br/>
 
-
+冒泡排序只涉及相邻元素的交换操作，只需要常量级的临时空间，空间复杂度为O（1），是原地排序算法<br/>
+冒泡排序中可以设置相邻元素大小相等时不做交换，所以是稳定的算法
+冒泡排序的最好情况时间复杂度：O(n)--一次冒泡,最坏情况时间复杂度:O(n^2)--n次冒泡
 
 
 
