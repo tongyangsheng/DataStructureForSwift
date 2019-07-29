@@ -183,6 +183,21 @@ n次冒泡的过程：<br/><br/>
 选择排序在交换的过程中，相同大小的元素位置可能发生改变，是不稳定的排序<br/>
 选择排序的时间复杂度永远是O(n^2)<br/><br/>
 
+### 归并排序
+归并排序的处理，就是先将初始数组进行分割，然后进行合并<br/><br/>
+
+归并排序举例：<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show19.jpg)<br/><br/>
+
+归并排序在合并两个有序数组时，是将两个数组从初始元素开始比较，存入一个临时数组<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show20.jpg)<br/><br/>
+
+归并排序中可以控制先放入前一个子数组的元素，是稳定的排序<br/>
+归并排序的时间复杂度永远是`O(nlogn)`<br/>
+归并排序的空间复杂度为`O(n)`，不是原地排序算法
+
 
 
 
