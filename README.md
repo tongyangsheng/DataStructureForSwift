@@ -196,8 +196,19 @@ n次冒泡的过程：<br/><br/>
 
 归并排序中可以控制先放入前一个子数组的元素，是稳定的排序<br/>
 归并排序的时间复杂度永远是`O(nlogn)`<br/>
-归并排序的空间复杂度为`O(n)`，不是原地排序算法
+归并排序的空间复杂度为`O(n)`，不是原地排序算法<br/><br/>
 
+### 快速排序
+快速排序的核心就是选择一个分支点，将小于分支点的数放到分支点左边，将大于分支点的数放到分支点右边，不断的分治，递归，将处理区间缩小为1<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show21.jpg)<br/><br/>
+
+大致处理过程：<br/><br/>
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show22.jpg)<br/>
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show23.jpg)<br/><br/>
+
+快速排序是原地、不稳定的算法<br/>
+快速排序在大部分情况下时间复杂度为`O(nlogn)`在极端情况下会退化到`O(n^2)`
 
 
 
