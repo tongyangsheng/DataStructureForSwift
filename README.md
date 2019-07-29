@@ -121,6 +121,16 @@
 
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show12.jpg)<br/><br/>
 
+### 第五部分：排序
+#### 冒泡排序
+冒泡排序是将相邻两个元素之间进行比较，一次冒泡会让一个元素移动到对应位置，要执行n次<br/><br/>
+一次冒泡的过程：<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show13.jpg)<br/><br/>
+
+n次冒泡的过程：<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show14.jpg)<br/><br/>
 
 
 
