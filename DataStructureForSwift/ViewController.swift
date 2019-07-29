@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         print("出队一次，出队元素为：\(queue.dequeue()!)")
         print("此时队首为：\(queue.front!)")
         print("------------------------------------排序---------------------------------")
-        print("--------冒泡排序--------")
+        print("-------------------冒泡排序-------------------")
         var num = [1,5,3,6,9]
         print("排序前：\(num)")
         BubbleSort(&num)
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
         var num1 = [1,5,3,6,9]
         BubbleSort2(&num1)
         print("优化算法排序后：\(num1)")
-        print("--------插入排序--------")
+        print("-------------------插入排序-------------------")
         var num2 = [1,5,3,6,9]
         print("排序前：\(num2)")
         InsertionSort(&num2)
@@ -65,11 +65,15 @@ class ViewController: UIViewController {
         var num3 = [1,5,3,6,9]
         InsertionSort1(&num3)
         print("优化算法排序后：\(num3)")
-        print("--------选择排序--------")
+        print("-------------------选择排序-------------------")
         var num4 = [1,5,3,6,9]
         print("排序前：\(num4)")
         SelectionSort(&num4)
         print("排序后：\(num4)")
+        print("-------------------归并排序-------------------")
+        let num5: Array<Int> = [78,66,53,12,55,26,34]
+        let num5Sort = MergeSort(num5)
+        print("排序后\(num5Sort)")
     }
 }
 
