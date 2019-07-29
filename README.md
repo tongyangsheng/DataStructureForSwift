@@ -1,4 +1,5 @@
-* [DataStructureForSwift](#datastructureforswift)
+
+   * [DataStructureForSwift](#datastructureforswift)
       * [第一部分：数组的实现](#第一部分数组的实现)
       * [第二部分：链表](#第二部分链表)
          * [数组和链表的区别](#数组和链表的区别)
@@ -15,6 +16,8 @@
          * [插入排序](#插入排序)
             * [插入排序的优化](#插入排序的优化)
          * [选择排序](#选择排序)
+
+
 # DataStructureForSwift
 
 ## 第一部分：数组的实现
