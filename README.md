@@ -121,6 +121,34 @@
 
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show12.jpg)<br/><br/>
 
+### 第五部分：排序
+原地排序算法：特指空间复杂度是O(1)的算法<br/>
+稳定性：经过排序后相等元素之间的顺序没有改变则是`稳定的排序算法`，相反则是`不稳定的排序算法`
+
+#### 冒泡排序
+冒泡排序是将相邻两个元素之间进行比较，一次冒泡会让一个元素移动到对应位置，要执行n次<br/><br/>
+一次冒泡的过程：<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show13.jpg)<br/><br/>
+
+n次冒泡的过程：<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show14.jpg)<br/><br/>
+
+冒泡排序只涉及相邻元素的交换操作，只需要常量级的临时空间，空间复杂度为O（1），是原地排序算法<br/>
+冒泡排序中可以设置相邻元素大小相等时不做交换，所以是稳定的算法<br/>
+冒泡排序的最好情况时间复杂度：O(n)--一次冒泡,最坏情况时间复杂度:O(n^2)--n次冒泡<br/><br/>
+
+##### 冒泡排序优化方案一
+当发现在某一趟排序中发现没有发生交换，则说明排序已经完成，所以可以在此趟排序后结束排序。在每趟排序前设置一个检测值，当其未发生改变时，终止算法；<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show15.jpg)<br/><br/>
+
+详见代码<br/><br/>
+
+##### 冒泡排序优化方案二
+每趟排序中，最后一次发生交换的位置后面的数据均已有序，可以记住最后一次交换的位置来减少排序的趟数。<br/>
+详见代码<br/><br/>
 
 
 
