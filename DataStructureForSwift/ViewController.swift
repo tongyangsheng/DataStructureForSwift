@@ -72,8 +72,15 @@ class ViewController: UIViewController {
         print("排序后：\(num4)")
         print("-------------------归并排序-------------------")
         let num5: Array<Int> = [78,66,53,12,55,26,34]
+        print("排序前：\(num5)")
+        print("开始排序")
         let num5Sort = MergeSort(num5)
-        print("排序后\(num5Sort)")
+        print("排序后：\(num5Sort)")
+        print("-------------------快速排序-------------------")
+        var num6 = [15,36,24,33,56,78]
+        print("排序前：\(num6)")
+        QuickSort(&num6, low: 0, high: num6.count-1)
+        print("排序后：\(num6)")
     }
 }
 

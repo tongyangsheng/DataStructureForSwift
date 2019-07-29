@@ -15,6 +15,7 @@
 		EFB6AACC22EE924500C0E2B6 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6AACB22EE924500C0E2B6 /* InsertionSort.swift */; };
 		EFB6AACE22EE9AC500C0E2B6 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6AACD22EE9AC500C0E2B6 /* SelectionSort.swift */; };
 		EFB6AAD022EEC80F00C0E2B6 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6AACF22EEC80F00C0E2B6 /* MergeSort.swift */; };
+		EFB6AAD222EEE5FC00C0E2B6 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB6AAD122EEE5FC00C0E2B6 /* QuickSort.swift */; };
 		EFC72D8022E1BF5800A3EB93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC72D7F22E1BF5800A3EB93 /* AppDelegate.swift */; };
 		EFC72D8222E1BF5800A3EB93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC72D8122E1BF5800A3EB93 /* ViewController.swift */; };
 		EFC72D8522E1BF5800A3EB93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC72D8322E1BF5800A3EB93 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		EFB6AACB22EE924500C0E2B6 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
 		EFB6AACD22EE9AC500C0E2B6 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		EFB6AACF22EEC80F00C0E2B6 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		EFB6AAD122EEE5FC00C0E2B6 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		EFC72D7C22E1BF5800A3EB93 /* DataStructureForSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructureForSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC72D7F22E1BF5800A3EB93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC72D8122E1BF5800A3EB93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				EFB6AACB22EE924500C0E2B6 /* InsertionSort.swift */,
 				EFB6AACD22EE9AC500C0E2B6 /* SelectionSort.swift */,
 				EFB6AACF22EEC80F00C0E2B6 /* MergeSort.swift */,
+				EFB6AAD122EEE5FC00C0E2B6 /* QuickSort.swift */,
 			);
 			path = Sorting;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				EFC72D8222E1BF5800A3EB93 /* ViewController.swift in Sources */,
 				EFB6AACE22EE9AC500C0E2B6 /* SelectionSort.swift in Sources */,
 				EFA3CF9B22E6BAA400311FE9 /* LinkedList.swift in Sources */,
+				EFB6AAD222EEE5FC00C0E2B6 /* QuickSort.swift in Sources */,
 				EFC72D8822E1BF5800A3EB93 /* DataStructureForSwift.xcdatamodeld in Sources */,
 				EFB6AACA22EE81BC00C0E2B6 /* BubbleSort.swift in Sources */,
 				EFA3CF9D22E6BB3000311FE9 /* Stack.swift in Sources */,
