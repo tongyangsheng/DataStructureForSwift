@@ -81,6 +81,11 @@ class ViewController: UIViewController {
         print("排序前：\(num6)")
         QuickSort(&num6, low: 0, high: num6.count-1)
         print("排序后：\(num6)")
+        print("------------------------------------二分查找---------------------------------")
+        let num7: Array<Int> = [66,47,55,26,78,99,21,11,46]
+        print("初始数组为\(num7),查找元素\(55)")
+        let result = BinarySearch(sourceArray: num7, find: 55)
+        print("搜索结果：\(result)")
     }
 }
 
