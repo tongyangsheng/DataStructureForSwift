@@ -222,6 +222,23 @@ n次冒泡的过程：<br/><br/>
 (3) 数据太小，没有必要用二分查找<br/>
 (4) 数据太大需要很大的数组，占据内存空间<br/>
 
+## 第七部分：跳表
+跳表：为了对链表实现类似二分查找的算法（二分查找依赖于数组的随机访问），对链表的结构进行了改造，改造之后的数据结构就叫跳表,跳表就是给链表加上多级索引<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show25.jpg)<br/>
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show26.jpg)<br/>
+
+在跳表中，查询任意数据的时间复杂度是O(logn)<br/><br/>
+
+跳表的插入和删除时间复杂度是O(logn)，在单链表中，还要获取要删除节点的前驱节点<br/><br/>
+
+在跳表中插入数据时，如果插入了很多数据，要防止跳表的退化，要同时将数据插入到索引层。可以通过一个随机函数决定，将数据添加到哪几级索引中<br/><br/>
+
+Redis的有序集合用跳表实现的原因是，在实现区间查找功能时红黑树的效率没有跳表高
+
+
+
+
 
 
 
