@@ -309,4 +309,58 @@ hnext指针是为了将节点串在散列表的拉链中。通过散列表的方
 &emsp;（2）判断图片是否在图库中：给图片计算唯一标识，和机器个数n取模，分配到对应的机器中构建散列表，查找时同样的方法计算后去相应的机器的散列表中查找<br/>
 7.分布式存储：一致性哈希算法的思想：哈希值的范围是[0,MAX]，将整个区间分成m个小区间，k台机器，每台管理m/k个区间，有新机器加入的时候，将某几个小区间的数据，从原来的机器搬移到新机器
 
+## 第九部分：二叉树
+### 树的相关概念：
+节点的高度：节点到叶子节点的最长路径（边数）<br/>
+节点的深度：根节点到这个节点所经历的边数<br/>
+节点的层数：节点的深度+1<br/>
+树的高度：根节点的高度<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show29.png)<br/><br/>
+
+### 满二叉树和完全二叉树
+满二叉树：叶子节点全都在最底层，除叶子节点外，每个节点都有左右两个子节点<br/>
+完全二叉树：叶子节点都在底下两层，最后一层的叶子节点都靠左排列，并且除了最后一层其他层的节点数都达到最大<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show30.jpg)<br/><br/>
+
+### 二叉树的存储
+#### 链式存储法
+每个节点有三个字段，分别存储数据，左右节点<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show31.jpg)<br/><br/>
+
+#### 顺序存储法
+基于数组，节点在数组中的下标为i的位置，左节点下标为2i,右节点下标为2i+1<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show32.jpg)<br/><br/>
+
+### 二叉树的遍历
+#### 先序遍历
+访问根节点<br/>
+先根遍历左子树<br/>
+先根遍历右子树<br/>
+退出<br/>
+#### 中序遍历
+中根遍历左子树<br/>
+访问根节点<br/>
+中根遍历右子树<br/>
+退出<br/>
+#### 后序列遍历
+后根遍历左子树<br/>
+后根遍历右子树<br/>
+访问根节点<br/>
+退出<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show33.png)<br/><br/>
+
+#### 遍历的时间复杂度
+每个节点最多被访问两次，遍历的时间复杂度和节点个数成正比，时间复杂度为O(n)。
+
+
+
+
+
+
+
 
