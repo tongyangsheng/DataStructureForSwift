@@ -355,7 +355,33 @@ hnext指针是为了将节点串在散列表的拉链中。通过散列表的方
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show33.png)<br/><br/>
 
 #### 遍历的时间复杂度
-每个节点最多被访问两次，遍历的时间复杂度和节点个数成正比，时间复杂度为O(n)。
+每个节点最多被访问两次，遍历的时间复杂度和节点个数成正比，时间复杂度为O(n)。<br/><br/>
+
+### 二叉查找树（二叉排序树）
+二叉查找树：在树中的任意一个节点，其左子树的每一个节点值都小于这个节点的值，右子树的每一个节点值都大于这个节点的值<br/>
+#### 二叉查找树的查找
+先取根节点，根据大小情况递归查找左子树或右子树<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show34.jpg)<br/><br/>
+
+#### 二叉查找树的插入
+和查找操作类似根据插入的值和节点的大小关系不断寻找到合适的插入位置<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show35.jpg)<br/><br/>
+
+#### 二叉查找树的删除
+（1）没有子节点：直接删除，父节点指向指针置为NULL<br/>
+（2）有一个子节点：直接删除，父节点指向删除节点的子节点<br/>
+（3）有两个节点：找到右子树中最小的节点，移到需要删除的位置<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show36.jpg)<br/><br/>
+
+#### 二叉查找树的优势
+1.散列表中的数据是无序的，需要输出有序数据，要先进行排序，二叉查找树只要中序遍历，在O(n)内可以直接输出有序数列<br/>
+2.散列表扩容耗时多，遇到哈希冲突时性能不稳定。常用的平衡二叉树性能非常稳定，时间复杂度稳定在O(logn)<br/>
+3.尽管散列表的查找等操作是常量级，但是存在哈希冲突，哈希函数需要计算，具体的时间复杂度不一定比O(logn)小<br/>
+4.散列表要考虑的很多，哈希函数的设计，冲突的解决，扩容等。平衡二叉树只需要考虑平衡性<br/><br/>
+
 
 
 
