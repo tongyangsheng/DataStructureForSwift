@@ -86,6 +86,16 @@ class ViewController: UIViewController {
         print("初始数组为\(num7),查找元素\(55)")
         let result = BinarySearch(sourceArray: num7, find: 55)
         print("搜索结果：\(result)")
+        print("------------------------------------二叉树---------------------------------")
+        //构造一棵二叉树
+        let tree = TreeNode(10)
+        let leftTree = TreeNode(8)
+        let rightTree = TreeNode(12)
+        
+        tree.left = leftTree
+        tree.right = rightTree
+        
+        print(tree.getMaxDepth(treeNode: tree))
     }
 }
 
