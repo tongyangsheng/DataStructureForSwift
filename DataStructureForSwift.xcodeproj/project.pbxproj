@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF06FCE622EFD74A00DA7ACB /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF06FCE522EFD74A00DA7ACB /* BinarySearch.swift */; };
+		EF5636CE23024C5D0085F04E /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5636CD23024C5D0085F04E /* Tree.swift */; };
 		EFA3CF9522E6B9E500311FE9 /* ArrayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA3CF9422E6B9E500311FE9 /* ArrayVC.swift */; };
 		EFA3CF9B22E6BAA400311FE9 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA3CF9A22E6BAA400311FE9 /* LinkedList.swift */; };
 		EFA3CF9D22E6BB3000311FE9 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA3CF9C22E6BB3000311FE9 /* Stack.swift */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		EF06FCE522EFD74A00DA7ACB /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		EF5636CD23024C5D0085F04E /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
 		EFA3CF9422E6B9E500311FE9 /* ArrayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayVC.swift; sourceTree = "<group>"; };
 		EFA3CF9A22E6BAA400311FE9 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		EFA3CF9C22E6BB3000311FE9 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -102,6 +104,14 @@
 				EF06FCE522EFD74A00DA7ACB /* BinarySearch.swift */,
 			);
 			path = BinarySearch;
+			sourceTree = "<group>";
+		};
+		EF5636CC23024C420085F04E /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				EF5636CD23024C5D0085F04E /* Tree.swift */,
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 		EFA3CF8D22E6B87600311FE9 /* Array */ = {
@@ -173,6 +183,7 @@
 			children = (
 				EFC72D7F22E1BF5800A3EB93 /* AppDelegate.swift */,
 				EFC72D8122E1BF5800A3EB93 /* ViewController.swift */,
+				EF5636CC23024C420085F04E /* Tree */,
 				EF06FCE422EFD72700DA7ACB /* BinarySearch */,
 				EFA3CF8D22E6B87600311FE9 /* Array */,
 				EFA3CF9722E6BA2E00311FE9 /* LinkedList */,
@@ -344,6 +355,7 @@
 				EF06FCE622EFD74A00DA7ACB /* BinarySearch.swift in Sources */,
 				EFC72D8222E1BF5800A3EB93 /* ViewController.swift in Sources */,
 				EFB6AACE22EE9AC500C0E2B6 /* SelectionSort.swift in Sources */,
+				EF5636CE23024C5D0085F04E /* Tree.swift in Sources */,
 				EFA3CF9B22E6BAA400311FE9 /* LinkedList.swift in Sources */,
 				EFB6AAD222EEE5FC00C0E2B6 /* QuickSort.swift in Sources */,
 				EFC72D8822E1BF5800A3EB93 /* DataStructureForSwift.xcdatamodeld in Sources */,
