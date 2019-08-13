@@ -423,7 +423,28 @@ hnext指针是为了将节点串在散列表的拉链中。通过散列表的方
 
 ![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show38.png)<br/><br/>
 
-在红黑树中，红色节点不能相邻，有一个红色节点则至少有一个黑色节点将它与其他红色节点隔开。黑色节点高度不超过log2(n)，加入红色后不超过2log2(n)，高度扩大一倍，性能下降的不多，甚至更好。红黑树做到了近似平衡，在维护平衡的成本上更低，插入，查找，删除都比较稳定。
+在红黑树中，红色节点不能相邻，有一个红色节点则至少有一个黑色节点将它与其他红色节点隔开。黑色节点高度不超过log2(n)，加入红色后不超过2log2(n)，高度扩大一倍，性能下降的不多，甚至更好。红黑树做到了近似平衡，在维护平衡的成本上更低，插入，查找，删除都比较稳定。<br/><br/>
+
+### 递归树
+#### 分析快速排序的时间复杂度
+快速排序最好情况下，每次区间都能一分为二，时间复杂度是O(nlogn)<br/>
+假设不能平均分一个区间是另一个区间的9倍，得到递归分解过程：<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show39.jpg)<br/><br>
+
+每一层的遍历操作之和是 n，如果树的高度是h,则时间复杂度是O(h*n)<br/>
+快速排序的结束条件就是待排序的区间大小为1，即叶子节点的数据规模是1。从根节点n到叶子节点1，最短路径每次乘1/10，最长路径每次乘9/10<br/><br/>
+
+![Image text](https://github.com/tongyangsheng/DataStructureForSwift/blob/master/show-img/show40.png)<br/><br>
+
+得到最短路径是log10(n),最长路径是log10/9(n)<br/>
+遍历数据综合在nlog10(n)和nlog9/10(n)之间，时间复杂度仍然为O(nlogn)<br/><br/>
+
+
+
+
+
+
 
 
 
