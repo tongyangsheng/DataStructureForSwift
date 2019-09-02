@@ -26,6 +26,8 @@
 		EFC72D8D22E1BF5E00A3EB93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC72D8B22E1BF5E00A3EB93 /* LaunchScreen.storyboard */; };
 		EFC72D9822E1BF5E00A3EB93 /* DataStructureForSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC72D9722E1BF5E00A3EB93 /* DataStructureForSwiftTests.swift */; };
 		EFC72DA322E1BF5F00A3EB93 /* DataStructureForSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC72DA222E1BF5F00A3EB93 /* DataStructureForSwiftUITests.swift */; };
+		EFF25089231CE96F004CBACB /* Test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF25088231CE96F004CBACB /* Test1.swift */; };
+		EFF2508B231CF60C004CBACB /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF2508A231CF60C004CBACB /* Test2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		EFC72D9E22E1BF5F00A3EB93 /* DataStructureForSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructureForSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC72DA222E1BF5F00A3EB93 /* DataStructureForSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructureForSwiftUITests.swift; sourceTree = "<group>"; };
 		EFC72DA422E1BF5F00A3EB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF25088231CE96F004CBACB /* Test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1.swift; sourceTree = "<group>"; };
+		EFF2508A231CF60C004CBACB /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +194,7 @@
 				EFA3CF9622E6B9FB00311FE9 /* Stack */,
 				EFA3CF9E22E7049B00311FE9 /* Queue */,
 				EFB6AAC822EE80FE00C0E2B6 /* Sorting */,
+				EFF25087231CE934004CBACB /* Leetcode */,
 				EFC72D8322E1BF5800A3EB93 /* Main.storyboard */,
 				EFC72D8922E1BF5E00A3EB93 /* Assets.xcassets */,
 				EFC72D8B22E1BF5E00A3EB93 /* LaunchScreen.storyboard */,
@@ -215,6 +220,15 @@
 				EFC72DA422E1BF5F00A3EB93 /* Info.plist */,
 			);
 			path = DataStructureForSwiftUITests;
+			sourceTree = "<group>";
+		};
+		EFF25087231CE934004CBACB /* Leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				EFF25088231CE96F004CBACB /* Test1.swift */,
+				EFF2508A231CF60C004CBACB /* Test2.swift */,
+			);
+			path = Leetcode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,10 +370,12 @@
 				EFC72D8222E1BF5800A3EB93 /* ViewController.swift in Sources */,
 				EFB6AACE22EE9AC500C0E2B6 /* SelectionSort.swift in Sources */,
 				EF5636CE23024C5D0085F04E /* Tree.swift in Sources */,
+				EFF2508B231CF60C004CBACB /* Test2.swift in Sources */,
 				EFA3CF9B22E6BAA400311FE9 /* LinkedList.swift in Sources */,
 				EFB6AAD222EEE5FC00C0E2B6 /* QuickSort.swift in Sources */,
 				EFC72D8822E1BF5800A3EB93 /* DataStructureForSwift.xcdatamodeld in Sources */,
 				EFB6AACA22EE81BC00C0E2B6 /* BubbleSort.swift in Sources */,
+				EFF25089231CE96F004CBACB /* Test1.swift in Sources */,
 				EFA3CF9D22E6BB3000311FE9 /* Stack.swift in Sources */,
 				EFC72D8022E1BF5800A3EB93 /* AppDelegate.swift in Sources */,
 			);
