@@ -102,6 +102,10 @@ class ViewController: UIViewController {
         var nums2 = [1,1,1,2,2,3]
         removeDuplicates(&nums2)
         print(nums2)
+        let nums3 = [-1,0,1,2,-1,-4]
+        print(twoSum(nums3))
+        print(twoSum2(nums3))
+        print(threeSum(nums3))
     }
 }
 
