@@ -15,7 +15,7 @@ func BinarySearch (sourceArray: [Int],find: Int) -> Int
     var compareTimes = 0
     while lower <= higher
     {
-        var middle = (lower + higher)/2
+        let middle = (lower + higher)/2
         compareTimes += 1
         print("第\(compareTimes)次比较，中点为\(sourceArray[middle])")
         if find == sourceArray[middle]
